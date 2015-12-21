@@ -6,7 +6,7 @@ import (
 	"github.com/ghaskins/jvmbind"
 )
 
-func TestLaunch(t *testing.T) {
+func TestHello(t *testing.T) {
 	instance, err := jvmbind.Launch("./test/hello-world.jar")
 	if err != nil {
 		t.Error(err)
